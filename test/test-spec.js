@@ -11,7 +11,7 @@ window.gameData = {};
 // Call with testModule(for:"wonderful_test", requires:['some_module'])
 
 window.testModule = function(options) {
-	window.testIndex = window.testIndex + 1;
-	module = ig.module('tests.' + options.name + '.' + window.testIndex).requires(options.requires.join(','));
-	return module;
+  window.testIndex = window.testIndex + 1;
+  module = ig.module('tests.' + options.name + '.' + window.testIndex).requires(options.requires.join(','));
+  return module;
 };
