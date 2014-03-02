@@ -1,0 +1,36 @@
+{
+  "name": "Recipe",
+  "version": "0.0.36",
+  "description": "Recipe-based game that requires you to get a number of parameters correct to produce a final outcome.",
+  "homepage": "http://www.gamegurus.com",
+  "author": "Aditya Ravi Shankar",
+  "repository": {
+    "type": "svn",
+    "url": "http://svn.hightechgurus.com/TTM/Recipe/TRUNK/"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-jsduck": "~1.0.0",
+    "grunt-shell": "~0.6.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-text-replace": "~0.3.9",
+    "grunt-mkdir": "~0.1.1",
+    "grunt-version": "~0.2.2",
+    "karma-chrome-launcher": "~0.1.2",
+    "karma-firefox-launcher": "~0.1.3",
+    "karma-html2js-preprocessor": "~0.1.0",
+    "karma-script-launcher": "~0.1.0",
+    "karma-junit-reporter": "~0.1.0",
+    "karma-jasmine": "~0.1.5",
+    "karma-coffee-preprocessor": "~0.1.2",
+    "requirejs": "~2.1.10",
+    "karma-requirejs": "~0.2.1",
+    "karma-phantomjs-launcher": "~0.1.2",
+    "karma": "~0.10.9",
+    "grunt-karma": "~0.6.2",
+    "grunt-exec": "~0.4.3"
+  }
+}
